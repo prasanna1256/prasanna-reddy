@@ -1,0 +1,7 @@
+streamlit
+pillow
+numpy
+pandas
+altair
+streamlit-echarts
+streamlit-components
