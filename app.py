@@ -3,7 +3,7 @@ from PIL import Image
 import numpy as np
 import pandas as pd
 import altair as alt
-import streamlit.components.v1 as components
+
 
 # --- Basic Information ---
 name = "Prasanna Reddy Tavanam"
@@ -222,7 +222,7 @@ elif selected_menu == "Contact":
                         }});
                     </script>
                 """
-                components.html(js_code, height=0)
+               
                 st.success("Message sent successfully!")
             else:
                 st.warning("Please fill in all the fields.")
