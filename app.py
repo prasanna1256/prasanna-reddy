@@ -3,7 +3,6 @@ from PIL import Image
 import numpy as np
 import pandas as pd
 import altair as alt
-from streamlit_echarts import st_echarts
 import streamlit.components.v1 as components
 
 # --- Basic Information ---
